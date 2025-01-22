@@ -1,0 +1,21 @@
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {   
+        
+        String Name = "Lance Timothy B. Satorre";
+        String Nickname = "Lans";
+        String Gender = "Male";
+        String Address = "Montra, Tisa, Cebu City";
+        String Yearlvl = "2nd Year";
+        String ProgSkill = "Java(Basic)";
+        int StudID = 23765142;
+        int Age = 20;
+        int PCNo = 25;
+        
+        
+        Console.WriteLine ("Name: " + Name);
+        Console.WriteLine (" Age: " + Age);
+        Console.WriteLine ("Address: " + Address);
+    }
+}
