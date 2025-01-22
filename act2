@@ -1,0 +1,52 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        float num;
+        float num2;
+        float Total;
+        String ChoiceOpe;
+        
+        Console.Write("Enter value no.1: ");
+        num = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Enter Operator (+,-,*,/): ");
+        ChoiceOpe = Console.ReadLine();
+        
+        Console.Write("Enter value no.2: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+        
+        switch(ChoiceOpe){
+            case "+": Total = num + num2; 
+            Console.WriteLine ("Result: "+ num + ChoiceOpe + num2 + "=" + Total);
+            break;
+            case "-": Total = num - num2;
+            Console.WriteLine ("Result: "+ num + ChoiceOpe + num2 + "=" + Total);
+            break;
+            case "*": Total = num * num2;
+            Console.WriteLine ("Result: "+ num + ChoiceOpe + num2 + "=" + Total);
+            break;
+            case "/": Total = num / num2;
+            Console.WriteLine ("Result: "+ num + ChoiceOpe + num2 + "=" + Total);
+            break;
+            default: Console.WriteLine("Invalid Operator!");
+            break;
+        }
+        
+          
+        
+        // Console.WriteLine ("Enter value no.2: ");
+        // num2 = Conver.ToInt32(Console.ReadLine());
+        
+        // Console.WriteLine ("Enter Operator: ");
+        // num2 = Conver.ToInt32(Console.ReadLine());
+        
+        // int Total = num + num2;
+    
+    }
+}
